@@ -303,6 +303,10 @@ pre {
     grid-template-rows: 1fr;
   }
 
+  .container {
+    max-width: 95%;
+  }
+
   .showcase {
     height: auto;
   }
