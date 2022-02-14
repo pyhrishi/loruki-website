@@ -303,10 +303,6 @@ pre {
     grid-template-rows: 1fr;
   }
 
-  .container {
-    max-width: 95%;
-  }
-
   .showcase {
     height: auto;
   }
@@ -315,12 +311,15 @@ pre {
     text-align: center;
     margin-top: 40px;
     animation: slideInFromTop 1s ease-in;
+    width: 95%;
+    margin: auto;
   }
 
   .showcase-form {
     justify-self: center;
     margin: auto;
     animation: slideInFromBottom 1s ease-in;
+    width: 95%;
   }
 
   .cli .grid > *:first-child {
